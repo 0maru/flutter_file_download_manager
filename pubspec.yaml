@@ -1,0 +1,26 @@
+name: download_manager
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  moor:
+  sqlite3_flutter_libs:
+  path_provider:
+  path:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  moor_generator:
+  build_runner:
+  build_resolvers:
+
+flutter:
+  uses-material-design: true
